@@ -168,7 +168,7 @@ button:focus {
 .hero-nav {
   margin: 0 -1rem;
   width: 100%;
-  height: var(--hero-nav-height);
+  /* height: var(--hero-nav-height); */
   display: flex;
   align-items: center;
 }
