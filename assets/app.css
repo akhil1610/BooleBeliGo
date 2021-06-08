@@ -322,7 +322,7 @@ button:focus {
 
 .hero__btn {
   display: inline-block;
-  width: 100%;
+  width: 119%;
 }
 
 @media(min-width: 992px) {
