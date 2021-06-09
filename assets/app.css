@@ -1,5 +1,5 @@
 :root {
-  --primary: #e01705;
+  --primary: #e44126;
   --secondary: #0a1f44;
   --primary-invert: #fff;
   --secondary-invert: #fff;
@@ -1190,7 +1190,7 @@ button:focus {
 
 @media(min-width: 992px) {
   .block-28 {
-    background-image: linear-gradient(to right, #f8f8f8 50%, transparent 0);
+    background-image: linear-gradient(to right, #f8f8f8 100%, transparent 0);
   }
 }
 
