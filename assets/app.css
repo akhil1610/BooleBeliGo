@@ -1,5 +1,6 @@
 :root {
   --primary: #e44126;
+  --primary-nav: #868686;
   --secondary: #0a1f44;
   --primary-invert: #fff;
   --secondary-invert: #fff;
@@ -401,7 +402,7 @@ button:focus {
   right: 0;
   bottom: 0;
   top: 0;
-  background: var(--primary);
+  background: var(--primary-nav);
   opacity: .9;
   z-index: -1;
 }
