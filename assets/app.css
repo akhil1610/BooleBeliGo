@@ -1,6 +1,6 @@
 :root {
   --primary: #e44126;
-  --primary-nav: #868686;
+  --primary-nav: beige;
   --secondary: #0a1f44;
   --primary-invert: #fff;
   --secondary-invert: #fff;
@@ -545,7 +545,7 @@ button:focus {
 .ft-menu__close-btn {
   color: var(--primary-invert);
   position: absolute;
-  right: 0;
+  right : 0;
   top: 0;
   font-size: 2rem;
   margin: 1rem;
