@@ -1,6 +1,5 @@
 :root {
   --primary: #e44126;
-  --primary-nav: #868686;
   --secondary: #0a1f44;
   --primary-invert: #fff;
   --secondary-invert: #fff;
@@ -34,88 +33,6 @@ body {
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 } */
-.sectionfaq{
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-}
-.containerfaq{
-   width: 100%;
-   max-width: 80rem;
-   margin: 0 auto;
-   padding:0 1.5rem;
-
-}
-.accordion-item{
-  background-color: #33c58d;
-  border-radius: .4rem;
-  margin-bottom: 1rem;
-  padding:1rem;
-  box-shadow: .5rem 2px .5rem rgba(0,0,0,0.1);
-
-}
-.accordion-link{
-  font-size: 1rem;
-  color: rgba(255, 255, 255, 0.8);
-  text-decoration: none;
-  background-color: 283042;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding : 1rem 0;
-}
-
-.accordion-link:hover{
-  text-decoration: none;
-  color: #ccc;
-}
-.accordion-link i{
-  color: #e44126;
-  padding : .5rem;
-}
-.accordion-link .fa-minus{
-  display: none;
-}
-
-.answer{
-  max-height: 0;
-  overflow: hidden;
-  position: relative;
-  background-color: #e44126;
-  transition: max-height 650ms;
-  
-  
-}
-.answer::before{
-  content: "";
-  position: absolute;
-  width: .6rem;
-  height: 90%;
-  background-color: #2629e4;
-  top: 50%;
-  left: 0;
-  transform: translateY(-50%);
-}
-.answer p{
-  color: rgba(255, 255, 255, 0.6);
-  font-size: 1rem;
-  padding:2rem;
-}
-
-.accordion-item:target .answer{
-max-height: 20rem;
-}
-
-.accordion-item:target .accordion-link .fa-plus{
-  display: none;
-}
-.accordion-item:target .accordion-link .fa-minus{
-  display: block;
-}
 
 .pricing-container:active 
 .pricing-container:hover {
@@ -484,7 +401,7 @@ button:focus {
   right: 0;
   bottom: 0;
   top: 0;
-  background: var(--primary-nav);
+  background: var(--primary);
   opacity: .9;
   z-index: -1;
 }
@@ -637,7 +554,7 @@ button:focus {
 /* ===================================== */
 
 .block-5 {
-  --block-background: #fff;
+  --block-background: #f8f8f8;
   --block-text-color: var(--text-primary);
   background: var(--block-background);
   color: var(--block-text-color);
@@ -715,7 +632,7 @@ button:focus {
 /* ========================================================= */
 
 .block-11 {
-  --block-background: #fadcd829;
+  --block-background: white;
   --block-text-color: var(--text-primary);
   background: var(--block-background);
   color: var(--block-text-color);
@@ -800,11 +717,7 @@ button:focus {
 .mb-2-1rem {
   margin-bottom: 2.1rem;
 }
-.stp-my{
-  border-radius: 15px;
-  margin-bottom: .5rem!important;
-  border: 1px solid black;
-}
+
 /* ======================================= */
 
 .block-20 {
@@ -1221,7 +1134,7 @@ button:focus {
 /* ======================================= */
 
 .block-39 {
-  --block-background: #f8f8f8;
+  --block-background: white;
   --block-text-color: var(--text-primary);
   background: var(--block-background);
   color: var(--block-text-color);
