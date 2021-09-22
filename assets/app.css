@@ -1,6 +1,6 @@
 :root {
   --primary: #e44126;
-  --primary-nav: beige;
+  --primary-nav: rgb(255, 255, 255);
   --secondary: #0a1f44;
   --primary-invert: #fff;
   --secondary-invert: #fff;
@@ -480,6 +480,8 @@ button:focus {
   width: 100%;
   margin-top: .75rem;
   margin-bottom: .75rem;
+  text-align: left;
+  margin-left: 20%;
 }
 
 @media(min-width: 992px) {
@@ -497,6 +499,7 @@ button:focus {
   animation-duration: .5s;
 }
 
+
 .ft-menu::before {
   content: '';
   display: block;
@@ -506,7 +509,7 @@ button:focus {
   bottom: 0;
   top: 0;
   background: var(--primary-nav);
-  opacity: .9;
+  opacity: 0.97;
   z-index: -1;
 }
 
