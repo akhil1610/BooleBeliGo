@@ -270,6 +270,11 @@ button:focus {
   margin-top: 98px;
 }
 
+.icons-my{
+  text-align: left;
+  color: #2629e4;
+}
+
 @media(min-width: 992px) {
   .hero {
     margin-top: 0px;
@@ -481,7 +486,7 @@ button:focus {
   margin-top: .75rem;
   margin-bottom: .75rem;
   text-align: left;
-  margin-left: 20%;
+  /* margin-left: 20%; */
 }
 
 @media(min-width: 992px) {
@@ -656,8 +661,29 @@ button:focus {
 .hero__img-container {
   border-radius: .5rem;
   overflow: hidden;
+  width: fit-content
 }
-
+.iframe-container{ 
+  position: relative; 
+  width: 100%; 
+  padding-bottom:56.25%; 
+  height: 0;
+}
+.iframe-container iframe{ 
+  position: absolute;
+  top:0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+.store-btn-my{
+  text-align: center;
+}
+@media(min-width: 992px) {
+  .store-btn-my{
+    text-align: start;
+    }
+}
 /* ===================================== */
 
 .block-5 {
