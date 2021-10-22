@@ -288,6 +288,37 @@ button:focus {
   display: flex;
   align-items: center;
 }
+.fb-my{
+  color: #3b5998;
+}
+.link-my{
+  color: #0e76a8;
+}
+.yt-my{
+  color: #FF0000;
+}
+.twit-my{
+  color: #1DA1F2;
+}
+.insta-my{
+  color: transparent;
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  -webkit-background-clip: text;
+  -o-background-clip: text;
+  -moz-background-clip: text;
+}
+
+.soc-icon-my{
+  font-size: 110%;
+
+}
 
 .hero-nav__item {
   text-align: center;
