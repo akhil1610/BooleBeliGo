@@ -10,7 +10,7 @@ function closeMenuAndGoTo(query) {
 }
 
 document.querySelector('#hero-menu').
-  querySelectorAll('[href]').
+  querySelectorAll('href').
   forEach(function (link) {
     link.onclick = function (event) {
       event.preventDefault()

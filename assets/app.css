@@ -1590,6 +1590,10 @@ textarea.contact-form__input {
   width: 100%;
   /* margin-bottom: 2.5rem; */
 }
+.inactiveLink {
+  pointer-events: none;
+  cursor: default;
+}
 
 @media(min-width: 992px) {
   .block-44__logo-container {
