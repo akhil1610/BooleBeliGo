@@ -1651,3 +1651,114 @@ textarea.contact-form__input {
   line-height: 1.7;
   opacity: .8;
 }
+
+/* youtube */
+.team-section{
+  width: 100%;
+  color: black;
+}
+.team-section .containers{
+  width: 80%;
+  margin: auto;
+}
+.team-section .containers .rows {
+  width: 80%;
+  margin: auto;
+}
+.team-section .containers .rows .title{
+  text-align: center;
+  margin-top: 50px;
+}
+.team-section .containers .rows .title h1 {
+  font-size: 35px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #eb6234;
+  
+}
+.team-section .containers .rows .title p {
+  font-size: 18px;
+  font-family: sans-serif;
+  margin:30px 0px;
+  color: #dc2743;
+}
+
+.team-section .containers .team-card{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+  margin-top: 50px;
+  
+}
+.team-section .containers .team-card .card{
+  width: 100%;
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  cursor: pointer;
+}
+.team-section .containers .team-card .card :hover{
+  background-color: #f3f3f3;
+  transition: 00.3s;
+}
+.team-section .containers .team-card .card .image-section img{
+  height: 150%;
+  width: 150%;
+  border-radius: 50%;
+  border: 6px solid #fff;
+}
+.team-section .containers .team-card .card .content{
+   width: 100%;
+   text-align: center;
+}
+.team-section .containers .team-card .card .content h3{
+  font-size: 27px;
+  margin-top: 10px;
+  letter-spacing: 1.5px;
+  color: #639ab8;
+}
+.team-section .containers .team-card .card .content h4{
+  font-size: 17px;
+  margin-top: 10px;
+  letter-spacing: 1.5px;
+  color: #6e6e6e;
+}
+.team-section .containers .team-card .card .content p{
+  font-size: 15px;
+  margin: 16px 0px;
+  line-height: 1.5;
+  color: #6c6c6c;
+}
+@media screen and ( max-width: 992px){
+  .team-section .containers .team-card{
+    grid-template-columns: repeat(2, 1fr);
+    
+  }
+  
+}
+@media screen and ( max-width: 768px){
+  .team-section .containers .team-card{
+    grid-template-columns: 1fr;
+    
+  }
+  
+}
+/* youtube end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
