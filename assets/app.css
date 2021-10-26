@@ -317,7 +317,11 @@ button:focus {
   -o-background-clip: text;
   -moz-background-clip: text;
 }
+.ab-us-my{
+  border-radius: 50%;
+  box-shadow:3px 3px 22px 3px grey
 
+}
 .soc-icon-my{
   font-size: 110%;
 
