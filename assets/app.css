@@ -324,7 +324,18 @@ button:focus {
 }
 .soc-icon-my{
   font-size: 110%;
+}
+.abt-icon-my{
+  font-size: 23px;
+  position: relative;
+  top: -21px;
+  left: 4px;
 
+}
+.card-body-my{
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 2px;
 }
 
 .hero-nav__item {
