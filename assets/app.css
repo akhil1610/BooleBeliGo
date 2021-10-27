@@ -330,7 +330,7 @@ button:focus {
   position: relative;
   top: -21px;
   left: 4px;
-
+  color: #0e76a8;
 }
 .card-body-my{
   flex: 1 1 auto;
