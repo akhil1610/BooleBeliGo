@@ -260,10 +260,15 @@ button:focus {
 }
 
 /* ============================================== */
-
+html{
+  background-color: #ff171703;;
+}
+.bg-nav-my{
+  background-color: #ff171703;;
+}
 .hero {
   --hero-nav-height: 100px;
-  --block-background: white;
+  --block-background: #ff171703;
   --block-text-color: var(--text-primary);
   background: var(--block-background);
   color: var(--block-text-color);
@@ -856,7 +861,7 @@ button:focus {
 /* ========================================================= */
 
 .block-11 {
-  --block-background: #fadcd829;
+  --block-background: #94372000;
   --block-text-color: var(--text-primary);
   background: var(--block-background);
   color: var(--block-text-color);
